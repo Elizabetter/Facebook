@@ -26,21 +26,8 @@ const postConfig = [
     imageAlt: "Пирог",
     icon: "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/236275659_383326569818441_4027079316998973661_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=9DYHwsM2QpkAX82GxXk&_nc_ht=scontent-fra5-2.xx&oh=00_AfC9nYiJsceyhvDFMBrfIkuiSaIC9B6L1rJHffMnqtgmZA&oe=63EFBA4B"
   },
-  // {
-  //   title: "",
-  //   author: "",
-  //   description: "", 
-  //   imageSrc: "", 
-  //   imageAlt: "",
-  // },
-  // {
-  //   title: "",
-  //   author: "",
-  //   description: "", 
-  //   imageSrc: "", 
-  //   imageAlt: "",
-  // },
-]
+];
+
 const MainContent = () => {
   return(
     <div
@@ -48,7 +35,14 @@ const MainContent = () => {
     >
       {postConfig.map(
         ({title, author, description, imageSrc, imageAlt, icon}) => 
-        <Post title={title} author={author} description={description} imageSrc={imageSrc} imageAlt={imageAlt} icon={icon}/>
+        <Post 
+          title={title} 
+          author={author} 
+          description={description} 
+          imageSrc={imageSrc} 
+          imageAlt={imageAlt} 
+          icon={icon}
+        />
         )}
     </div>
     )

@@ -3,9 +3,6 @@ import homeIcon from "../public/icons/home.svg";
 import watchIcon from "../public/icons/watch.svg";
 import friendIcon from "../public/icons/friend.svg";
 import marketplaceIcon from "../public/icons/marketplace.svg";
-import Image from 'next/image'
-// import Button from "../components/Button"
-// import Image from 'next/image'
 
 const config = [homeIcon, friendIcon, watchIcon, marketplaceIcon];
 
@@ -54,7 +51,6 @@ const Post = ({title, author, description, imageSrc, imageAlt, icon}) => {
           height="526" 
           width="526" 
           alt={imageAlt} 
-          // referrerpolicy="origin-when-cross-origin" 
           src={imageSrc}
           />
         </div>

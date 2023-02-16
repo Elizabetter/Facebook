@@ -11,10 +11,7 @@ const config = [homeIcon, friendIcon, watchIcon, marketplaceIcon, homeIcon];
 const Header = () => {
     return(
     <div class="flex top-0 right-0 left-0 z-1 h-14 bg-white">
-        <div 
-        // class="w-1/4"
-        >
-        
+        <div>
         </div>
         <div class="justify-center flex grow px-27.5"
         // class="w-1/2"
